@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(155, 102, 4);
+    padding: 5px;
+}
+.topo_da_pagina{
+    text-align: center;
+}
+nav{
+    background-color: wheat;
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: rgb(74, 74, 245);
+    margin: 20px;
+
+}
+section {
+    background-color: darkred;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.prato_do_dia {
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 5px;
+}
+.horario_de_funcionamento {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    background-image: url(desenho-de-padrao-abstrato-de-burger-fundo-de-ilustracao-vetorial-sem-costura_90697-1488.avif);
+}
+    

@@ -1,0 +1,140 @@
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #fc6625;
+  --cor-do-texto: #474747;
+  --cor-do-texto-2: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(./img/wallpaper.jpg);
+}
+
+header {
+  background-color: var(--cor-primaria);
+  color: #fff;
+}
+header img {
+  margin-top: 10px;
+}
+header h1 {
+  font-size: 25px;
+}
+header p {
+  color: var(--cor-secundaria);
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: var(--cor-secundaria);
+}
+nav a {
+  text-decoration: none;
+  color: var(--cor-primaria);
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.conteudo {
+  margin-top: 20px;
+}
+.conteudo h2 {
+  margin-bottom: 15px;
+  color: var(--cor-do-texto-2);
+}
+.conteudo .informacoes {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 20px;
+}
+
+.conteudo .caixa {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: none;
+  color: var(--cor-do-texto-2);
+}
+
+.conteudo .caixa h3{
+    color: var(--cor-secundaria);
+}
+
+.conteudo .informacoes .caixa-esquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteudo .informacoes .caixa-esquerda h3 {
+}
+.conteudo .informacoes .caixa-esquerda p {
+}
+.conteudo .informacoes .caixa-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteudo .informacoes .caixa-direita h3 {
+}
+.conteudo .informacoes .caixa-direita p {
+}
+
+.secao-cardapio {
+}
+.secao-cardapio h2 {
+    margin-bottom: 30px;
+    color: var(--cor-secundaria);
+}
+.secao-cardapio p {
+    margin: 20px;
+    color: var(--cor-do-texto-2);
+    font-size: 25px;
+}
+.secao-cardapio strong {
+}
+
+.secao-sobre-nos {
+  color: var(--cor-do-texto-2);
+  margin-top: 50px;
+  background-color:var(--cor-secundaria);
+  width: 80;
+  margin: 0 auto;
+}
+.secao-sobre-nos h2 {
+}
+.secao-sobre-nos p {
+}
+
+.secao-contatos {
+}
+.secao-contatos h2 {
+}
+.secao-contatos p {
+}
+.secao-contatos p strong {
+}
+
+footer {
+}
+footer p {
+}
